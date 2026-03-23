@@ -1,14 +1,25 @@
+import { Link } from "react-router-dom";
+
 function Nav() {
   return (
     <>
       <nav className="flex items-center justify-between p-4 bg-gray-800 text-white">
         <div className="flex items-center space-x-4">
-          <a href="#" className="text-lg font-bold">
+          <Link to="/" className="text-md font-bold hover:text-blue-400">
             Home
-          </a>
-          <a href="#" className="text-lg">
+          </Link>
+          <span className="text-md">|</span>
+          <Link to="/about" className="text-md hover:text-blue-400">
             About
-          </a>
+          </Link>
+          <span className="text-md">|</span>
+          <Link to="/github" className="text-md hover:text-blue-400">
+            GitHub
+          </Link>
+          <span className="text-md">|</span>
+          <Link to="/projects" className="text-md hover:text-blue-400">
+            Projects
+          </Link>
         </div>
         <div className="flex items-center space-x-4">
           <button className="px-4 py-2 bg-blue-500 rounded hover:bg-blue-600">
