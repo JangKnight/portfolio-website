@@ -5,7 +5,11 @@ const FetchProfile = () => {
     form.preventDefault();
     const formData = new FormData(form.target);
     let username = formData.get("username");
-    setUsername(username.trim() || "JangKnight");
+    let trimmed = null;
+    if (typeof username === "string") {
+      trimmed = username.trim();
+    }
+    setUsername(trimmed || "JangKnight");
     form.target.reset();
   };
 
