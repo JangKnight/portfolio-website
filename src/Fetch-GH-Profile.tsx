@@ -53,11 +53,17 @@ const FetchProfile = () => {
         </h2>
         {profile && (
           <div className="flex flex-col items-left">
-            <img
-              src={profile.avatar_url}
-              alt={`${profile.login}'s avatar`}
-              className="w-24 h-24 rounded-full mb-4 mx-auto"
-            />
+            <a
+              href={profile.html_url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={profile.avatar_url}
+                alt={`${profile.login}'s avatar`}
+                className="w-24 h-24 rounded-full mb-4 mx-auto"
+              />
+            </a>
             <p>Name: {profile.name}</p>
             <p>Bio: {profile.bio}</p>
             <p>Location: {profile.location}</p>
