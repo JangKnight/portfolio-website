@@ -7,6 +7,7 @@ import FetchProfile from "./Fetch-GH-Profile.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
+    <title>Anthony's Portfolio</title>
     <Nav />
     <FetchProfile />
   </StrictMode>,
