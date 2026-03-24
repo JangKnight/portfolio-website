@@ -27,7 +27,7 @@ function Nav() {
           </Link>
           <span className="text-md">|</span>
           <Link to="#" className="text-md cursor-not-allowed">
-            <span className="line-through">Projects</span>(under construction)
+            <span className="line-through">Projects</span>(refactoring)
           </Link>
         </div>
         {/*
