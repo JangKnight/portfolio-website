@@ -49,7 +49,20 @@ const FetchGHProfile = () => {
         </form>
 
         <h2 className="my-4 ">
-          {profile ? `${profile.login}'s Profile` : "Fetch GH Profile"}
+          {profile ? (
+            <>
+              <a
+                className="text-blue-600"
+                href={profile.html_url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {profile.login}
+              </a>
+            </>
+          ) : (
+            "Fetch GH Profile"
+          )}
         </h2>
         {profile && (
           <div className="flex flex-col items-center">

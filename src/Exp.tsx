@@ -27,7 +27,7 @@ const events: TimelineEvent[] = [
 
 const Exp = () => {
   return (
-    <div className="w-full h-96 overflow-y-auto  border border-gray-300 rounded-lg p-6">
+    <div className="max-w-8xl mx-auto h-80 overflow-y-auto  border border-gray-300 rounded-lg p-6">
       <div className="relative">
         {/* Timeline line */}
         <div className="absolute left-4 top-0 bottom-0 w-1 bg-blue-400"></div>
