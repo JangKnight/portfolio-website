@@ -21,10 +21,10 @@ const About = () => {
           </p>
 
           <p className="text-lg">
-            When I'm not coding, you'll find me contributing to open-source
-            projects, writing technical blog posts, or exploring new frameworks
-            and tools. I believe in continuous learning and sharing knowledge
-            with the developer community.
+            When I'm not coding, you'll find me working on personal projects,
+            solving coding challenges, or exploring new frameworks and tools. I
+            believe in continuous learning and sharing knowledge with the
+            developer community.
           </p>
         </div>
 
@@ -34,12 +34,12 @@ const About = () => {
             <div className="text-gray-600">Years Experience</div>
           </div>
           <div className="text-center p-6 bg-blue-50 rounded-lg">
-            <div className="text-3xl font-semibold text-blue-600 mb-2">30+</div>
-            <div className="text-gray-600">Projects Completed</div>
+            <div className="text-3xl font-semibold text-blue-600 mb-2">50+</div>
+            <div className="text-gray-600">Katas Completed</div>
           </div>
           <div className="text-center p-6 bg-blue-50 rounded-lg">
             <div className="text-3xl font-semibold text-blue-600 mb-2">2</div>
-            <div className="text-gray-600">Blog Articles</div>
+            <div className="text-gray-600">Personal Projects</div>
           </div>
         </div>
       </div>
