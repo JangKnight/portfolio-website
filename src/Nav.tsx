@@ -22,8 +22,12 @@ function Nav() {
             GitHub
           </Link>
           <span className="text-md">|</span>
-          <Link to="/projects" className="text-md hover:text-purple-400">
-            Projects
+          <Link to="/chat" className="text-md hover:text-purple-400">
+            Chat
+          </Link>
+          <span className="text-md">|</span>
+          <Link to="#" className="text-md cursor-not-allowed">
+            <span className="line-through">Projects</span>(under construction)
           </Link>
         </div>
         {/*

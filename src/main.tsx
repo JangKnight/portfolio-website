@@ -6,6 +6,7 @@ import Nav from "./Nav.tsx";
 import FetchGHProfile from "./Fetch-GH-Profile.tsx";
 import About from "./About.tsx";
 import Home from "./Home.tsx";
+import Chat from "./Chat.tsx";
 //import App from "./App.tsx";
 
 const Layout = () => {
@@ -29,6 +30,8 @@ const router = createBrowserRouter([
         path: "/projects",
         element: <div className="p-4">Projects Content</div>,
       },
+      { path: "/chat", element: <Chat /> },
+      { path: "/chat/:room", element: <Chat /> },
     ],
   },
 ]);
