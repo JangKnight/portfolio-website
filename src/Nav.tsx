@@ -6,23 +6,23 @@ function Nav() {
     <>
       <nav className="flex items-center justify-between p-4 bg-gray-800 text-white">
         <div className="flex items-center gap-1">
-          <User className="w-8 h-8 text-blue-600" />
+          <User className="w-8 h-8 text-purple-600" />
           <span className="text-xl font-semibold">Anthony Henry</span>
         </div>
         <div className="flex items-center space-x-4">
-          <Link to="/" className="text-md font-bold hover:text-blue-400">
+          <Link to="/" className="text-md font-bold hover:text-purple-400">
             Home
           </Link>
           <span className="text-md">|</span>
-          <Link to="/about" className="text-md hover:text-blue-400">
+          <Link to="/about" className="text-md hover:text-purple-400">
             About
           </Link>
           <span className="text-md">|</span>
-          <Link to="/github" className="text-md hover:text-blue-400">
+          <Link to="/github" className="text-md hover:text-purple-400">
             GitHub
           </Link>
           <span className="text-md">|</span>
-          <Link to="/projects" className="text-md hover:text-blue-400">
+          <Link to="/projects" className="text-md hover:text-purple-400">
             Projects
           </Link>
         </div>

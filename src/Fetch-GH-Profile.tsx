@@ -43,7 +43,10 @@ const FetchGHProfile = () => {
             name="username"
             placeholder="GitHub username"
           />
-          <button className="mx-3 btn btn-primary" type="submit">
+          <button
+            className="mx-2 p-2 bg-blue-500 rounded hover:bg-blue-600"
+            type="submit"
+          >
             Fetch Profile
           </button>
         </form>
@@ -52,7 +55,7 @@ const FetchGHProfile = () => {
           {profile ? (
             <>
               <a
-                className="text-blue-600"
+                className="text-blue-500"
                 href={profile.html_url}
                 target="_blank"
                 rel="noopener noreferrer"

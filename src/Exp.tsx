@@ -27,20 +27,20 @@ const events: TimelineEvent[] = [
 
 const Exp = () => {
   return (
-    <div className="max-w-8xl mx-auto h-80 overflow-y-auto  border border-gray-300 rounded-lg p-6">
+    <div className="max-w-8xl mx-auto h-80 overflow-y-auto bg-gray-100 border-4 border-purple-700 rounded-lg p-6">
       <div className="relative">
         {/* Timeline line */}
-        <div className="absolute left-4 top-0 bottom-0 w-1 bg-blue-400"></div>
+        <div className="absolute left-3 top-0 bottom-0 w-1 bg-purple-400"></div>
 
         {/* Events */}
         <div className="space-y-8 ml-16">
           {events.map((event, idx) => (
             <div key={idx} className="relative">
               {/* Dot on timeline */}
-              <div className="absolute -left-12 top-1.5 w-5 h-5 bg-purple-500 rounded-full border-4 border-gray-400"></div>
+              <div className="absolute -left-12 top-1.5 w-5 h-5 bg-purple-500 rounded-full border-4 border-black"></div>
 
               {/* Content */}
-              <div className="p-4 rounded-lg shadow-sm border-4 border-gray-400">
+              <div className="p-4 rounded-lg shadow-sm border-2 border-gray-400 text-black">
                 <div className="font-bold text-purple-500">{event.year}</div>
                 <h3 className="font-semibold mt-1">{event.title}</h3>
                 <p className=" text-sm mt-2">{event.description}</p>
