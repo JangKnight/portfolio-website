@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom";
+import { User, Menu } from "lucide-react";
 
 function Nav() {
   return (
     <>
       <nav className="flex items-center justify-between p-4 bg-gray-800 text-white">
+        <div className="flex items-center gap-1">
+          <User className="w-8 h-8 text-blue-600" />
+          <span className="text-xl font-semibold">Anthony Henry</span>
+        </div>
         <div className="flex items-center space-x-4">
           <Link to="/" className="text-md font-bold hover:text-blue-400">
             Home
@@ -21,6 +26,7 @@ function Nav() {
             Projects
           </Link>
         </div>
+        {/*
         <div className="flex items-center space-x-4">
           <button className="px-4 py-2 bg-blue-500 rounded hover:bg-blue-600">
             Login
@@ -29,6 +35,7 @@ function Nav() {
             Sign Up
           </button>
         </div>
+          */}
       </nav>
       <hr />
     </>

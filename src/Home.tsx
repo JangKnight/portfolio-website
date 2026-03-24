@@ -1,22 +1,34 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
-import heroImg from "./assets/hero.png";
+import heroImg from "./assets/me.jpeg";
 
 function Home() {
   const [_count, _setCount] = useState(0);
 
   return (
     <>
-      <div className="flex justify-center">
-        <h3> Hello, Anthony!</h3>
+      <div className="flex justify-center pt-4">
+        <h3> Hey 👋🏾, I'm Anthony!</h3>
       </div>
-      <div className="flex justify-center">
-        <img
-          src={heroImg}
-          alt="Hero"
-          className="w-full max-w-2xl rounded-lg shadow-lg"
-        />
+      <div className="flex flex-col items-center justify-center gap-6 pt-4">
+        <a
+          href="https://www.linkedin.com/in/ajaykay/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={heroImg}
+            alt="Anthony Henry"
+            className="w-32 h-32 rounded-full shadow-lg"
+          />
+        </a>
+        <p className="block text-blue-600 text-2xl">Full-Stack Developer</p>
+        <p className="text-lg text-center max-w-2xl">
+          "I build scalable web applications and love solving complex problems
+          with clean, efficient code. Passionate about TypeScript, React, and
+          cloud architecture."
+        </p>
       </div>
     </>
   );
