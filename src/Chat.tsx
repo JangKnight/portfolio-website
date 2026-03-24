@@ -9,7 +9,7 @@ const Chat = () => {
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    const ws = new WebSocket(`ws://192.168.1.229:3000/ws/${room}`);
+    const ws = new WebSocket(`${import.meta.env.WS_URL}/ws/${room}`);
     wsRef.current = ws;
 
     ws.onmessage = (event) => {
