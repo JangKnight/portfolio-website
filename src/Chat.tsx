@@ -77,8 +77,8 @@ const Chat = () => {
           </div>
         </div>
         <div className="text-sm text-gray-500 mt-4 text-center">
-          Note: Make your own chat room by adding chat room name to url:
-          /chat/your-room-name
+          Note: Make your own chat room by adding chat room name to url
+          (/chat/your-room-name)
         </div>
       </div>
     </section>
