@@ -25,10 +25,10 @@ function Nav() {
           <Link to="/chat" className="text-md hover:text-purple-400">
             Chat
           </Link>
-          <span className="text-md">|</span>
+          {/* <span className="text-md">|</span>
           <Link to="#" className="text-md cursor-not-allowed">
             <span className="line-through">Projects</span>(refactoring)
-          </Link>
+          </Link> */}
         </div>
         {/*
         <div className="flex items-center space-x-4">
