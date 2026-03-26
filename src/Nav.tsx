@@ -18,12 +18,20 @@ function Nav() {
             About
           </Link>
           <span className="text-md">|</span>
+          <Link to="/blog" className="text-md hover:text-purple-400">
+            Blog
+          </Link>
+          <span className="text-md">|</span>
           <Link to="/github" className="text-md hover:text-purple-400">
             GitHub
           </Link>
           <span className="text-md">|</span>
           <Link to="/chat" className="text-md hover:text-purple-400">
             Chat
+          </Link>
+          <span className="text-md">|</span>
+          <Link to="/demos" className="text-md hover:text-purple-400">
+            Demos
           </Link>
           {/* <span className="text-md">|</span>
           <Link to="#" className="text-md cursor-not-allowed">

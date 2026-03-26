@@ -41,7 +41,7 @@ const Chat = () => {
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl md:text-5xl mb-8 text-center">Chat: {room}</h2>
 
-        <div className="bg-white rounded-lg shadow-md border border-gray-200 flex flex-col h-[500px]">
+        <div className="bg-white rounded-lg shadow-md border border-gray-200 flex flex-col h-125">
           <div className="flex-1 overflow-y-auto p-4 space-y-2">
             {messages.length === 0 && (
               <p className="text-gray-400 text-center mt-8">
