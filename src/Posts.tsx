@@ -27,7 +27,7 @@ const Posts = () => {
       {data.map((post) => (
         <div
           key={post.id}
-          className="max-w-2xl w-full bg-gray-100 border-4 border-purple-700 rounded-lg p-6"
+          className="max-w-4xl h-80 overflow-y-auto w-full bg-gray-100 border-4 border-purple-700 rounded-lg p-6"
         >
           <h3 className="text-xl text-gray-800 font-bold mb-2">{post.title}</h3>
           <p className="text-gray-700">{post.content}</p>
