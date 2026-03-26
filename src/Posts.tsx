@@ -1,8 +1,15 @@
 import axios from "axios";
+import axiosRetry from "axios-retry";
 import { use, useEffect, useState } from "react";
 
 const Posts = () => {
   const [data, setData] = useState(null);
+
+  axiosRetry(axios, {
+    retries: 5,
+    retryCondition: (error) => true,
+    retryDelay: axiosRetry.exponentialDelay,
+  });
 
   axios({
     method: "get",
