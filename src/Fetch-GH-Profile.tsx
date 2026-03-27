@@ -87,9 +87,11 @@ const FetchGHProfile = () => {
           </div>
         )}
       </div>
+
       <div className="text-sm text-gray-500 mt-4 text-center">
-        Use cases: Try fetching one of these profiles &gt; "torvalds", "mit", an
-        empty string, a friend's username, or your own username!
+        <hr className="my-4 mx-auto border-gray-300 w-full max-w-4xl" />
+        Use cases: Try fetching one of these profiles --&gt; "torvalds", "mit",
+        an empty string, a friend's username, or your own username!
       </div>
     </>
   );
