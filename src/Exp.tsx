@@ -7,7 +7,7 @@ interface TimelineEvent {
 const events: TimelineEvent[] = [
   {
     year: "2018 - 2020",
-    title: "Researcher at GTRI",
+    title: "Researching at GTRI",
     description:
       "I was offered a position at Georgia Tech Research Institute with a project of rebasing Java Swing code to JavaFX. I learned a lot about GUIs, human-computer interactions, and database orms during this co-op.",
   },
@@ -19,7 +19,7 @@ const events: TimelineEvent[] = [
   },
   {
     year: "2022 - 2026",
-    title: "Going pro at CodeMettle",
+    title: "Coding at CodeMettle",
     description:
       "I graduated in 2022 with my degree in Computer Engineering! I joined CodeMettle as a software engineer where we built custom NOC solutions for clients(mostly DoD). I mostly focused on building web applications with React, TypeScript, Golang, and Python. I got to learn about cloud architecture and DevOps practices. My latest project that involved building a real-time network monitoring dashboard using React and WebSockets.",
   },
