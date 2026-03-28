@@ -31,7 +31,7 @@ function Nav() {
         </div>
         <div className="w-40">
           <Link
-            to="https://ajk-backend.onrender.com/docs/"
+            to="https://api.anthonysjhenry.dev/docs/"
             className="rounded-2xl bg-cyan-500 px-6 py-2 font-semibold text-slate-950 transition-colors hover:bg-cyan-400"
           >
             API Docs
