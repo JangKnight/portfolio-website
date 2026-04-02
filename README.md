@@ -2,7 +2,7 @@
 
 Welcome to my portfolio! You can view my work and projects at:
 
-**[https://anthonysjhenry.vercel.app](https://anthonysjhenry.vercel.app)**
+**[https://anthonysjhenry.dev](https://anthonysjhenry.dev)**
 
 ## About
 
