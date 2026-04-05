@@ -23,6 +23,7 @@ import AdminUsers from "./Admin-Users.tsx";
 import AdminPosts from "./Admin-Posts.tsx";
 import { AuthProvider } from "./Auth.tsx";
 import NotFound from "./Not-Found.tsx";
+import Projects from "./Projects.tsx";
 
 //import App from "./App.tsx";
 
@@ -49,6 +50,7 @@ const router = createBrowserRouter([
       { path: "/chat", element: <Chat /> },
       { path: "/chat/:room", element: <Chat /> },
       { path: "/arcade", element: <Games /> },
+      { path: "/projects", element: <Projects /> },
       {
         path: "/admin",
         element: <Admin />,
