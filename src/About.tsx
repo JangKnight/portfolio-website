@@ -34,14 +34,12 @@ const About = () => {
             <div className="text-gray-600">Years Experience</div>
           </div>
           <div className="text-center p-6 bg-blue-50 rounded-lg">
-            <div className="text-3xl font-semibold text-blue-600 mb-2">55+</div>
+            <div className="text-3xl font-semibold text-blue-600 mb-2">60+</div>
             <div className="text-gray-600">Challenges Completed</div>
           </div>
           <div className="text-center p-6 bg-blue-50 rounded-lg">
-            <div className="text-3xl font-semibold text-blue-600 mb-2">
-              100+
-            </div>
-            <div className="text-gray-600">Open Source Contributions</div>
+            <div className="text-3xl font-semibold text-blue-600 mb-2">50+</div>
+            <div className="text-gray-600">Commits Per Month</div>
           </div>
         </div>
       </div>
