@@ -5,8 +5,8 @@ const Projects = () => {
       subtitle: "Data pipeline using RabbitMQ and MinIO",
       description:
         "This is a data pipeline using a React frontend, FastAPI backend, RabbitMQ, and a microservice that prepares Parquet files for MinIO to consume in preparation to be attached or sent to a data warehouse.",
-      rmqurl: "http://anthonysjhenry.com:15672",
-      miourl: "http://anthonysjhenry.com:9001",
+      rmqurl: "http://rabbitmq.anthonysjhenry.com",
+      miourl: "http://minio.anthonysjhenry.com",
       tags: ["React", "TypeScript", "FastAPI", "Python", "RabbitMQ", "MinIO"],
       status: "Live",
     },
