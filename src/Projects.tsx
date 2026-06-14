@@ -1,14 +1,13 @@
 const Projects = () => {
   const projects = [
     {
-      title: "Go Bank",
-      subtitle: "Gemini-powered chatbot banking assistant",
+      title: "ETL Data Pipeline",
+      subtitle: "Data pipeline using rabbitmq and minio",
       description:
-        "A personal project showcasing a chatbot that helps users navigate the site and more.\n" +
-        "Gemini API has changed recently, so some features may not work as expected.",
-      url: "https://bank.anthonysjhenry.net",
-      tags: ["Go", "React", "Gemini AI", "PostgreSQL"],
-      status: "WIP",
+        "This is a data pipeline using a React frontend, FastAPI backend, RabbitMQ, and a microservice that prepares Parquet files for MinIO to consume in preparation to be attached or sent to a data warehouse.",
+      url: "http://anthonysjhenry.com:15672",
+      tags: ["React", "TypeScript", "FastAPI", "Python", "RabbitMQ", "MinIO"],
+      status: "Live",
     },
   ];
 
