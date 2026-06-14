@@ -2,7 +2,7 @@ const Projects = () => {
   const projects = [
     {
       title: "ETL Data Pipeline",
-      subtitle: "Data pipeline using rabbitmq and minio",
+      subtitle: "Data pipeline using RabbitMQ and MinIO",
       description:
         "This is a data pipeline using a React frontend, FastAPI backend, RabbitMQ, and a microservice that prepares Parquet files for MinIO to consume in preparation to be attached or sent to a data warehouse.",
       url: "http://anthonysjhenry.com:15672",
