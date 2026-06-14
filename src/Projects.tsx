@@ -28,7 +28,7 @@ const Projects = () => {
                 <h3 className="text-xl font-semibold text-blue-600">
                   {project.title}
                 </h3>
-                <span className="text-xs font-medium text-orange-600 bg-orange-100 px-2 py-0.5 rounded-full">
+                <span className="text-xs font-medium text-green-600 bg-green-100 px-2 py-0.5 rounded-full">
                   {project.status}
                 </span>
               </div>
