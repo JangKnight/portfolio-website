@@ -5,7 +5,8 @@ const Projects = () => {
       subtitle: "Data pipeline using RabbitMQ and MinIO",
       description:
         "This is a data pipeline using a React frontend, FastAPI backend, RabbitMQ, and a microservice that prepares Parquet files for MinIO to consume in preparation to be attached or sent to a data warehouse.",
-      url: "http://anthonysjhenry.com:15672",
+      rmqurl: "http://anthonysjhenry.com:15672",
+      miourl: "http://anthonysjhenry.com:9001",
       tags: ["React", "TypeScript", "FastAPI", "Python", "RabbitMQ", "MinIO"],
       status: "Live",
     },
@@ -47,12 +48,20 @@ const Projects = () => {
                 ))}
               </div>
               <a
-                href={project.url}
+                href={project.rmqurl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-auto text-sm text-blue-500 hover:underline"
               >
-                Visit project →
+                RabbitMQ →
+              </a>
+              <a
+                href={project.miourl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-auto text-sm text-blue-500 hover:underline"
+              >
+                MinIO →
               </a>
             </div>
           ))}
