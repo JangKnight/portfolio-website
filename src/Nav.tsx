@@ -10,7 +10,7 @@ const navLinks = [
   { to: "/chat", label: "Chat" },
   { to: "/spaces", label: "Spaces" },
   { to: "/arcade", label: "Arcade" },
-  { to: "/projects", label: "More Projects" },
+  // { to: "/projects", label: "More Projects" },
 ];
 
 function Nav() {
