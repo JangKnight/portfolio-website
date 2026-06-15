@@ -5,9 +5,30 @@ const Projects = () => {
       subtitle: "Data pipeline using RabbitMQ and MinIO",
       description:
         "This is a data pipeline using a React frontend, FastAPI backend, RabbitMQ, and a microservice that prepares Parquet files for MinIO to consume in preparation to be attached or sent to a data warehouse.",
-      rmqurl: "https://rabbitmq.anthonysjhenry.com",
-      miourl: "https://minio.anthonysjhenry.com",
+      url1: "https://rabbitmq.anthonysjhenry.com",
+      url1Label: "RabbitMQ →",
+      url2: "https://minio.anthonysjhenry.com",
+      url2Label: "MinIO →",
       tags: ["React", "TypeScript", "FastAPI", "Python", "RabbitMQ", "MinIO"],
+      status: "Live",
+    },
+    {
+      title: "Prometheus and Grafana Monitoring/Observability",
+      subtitle: "Monitoring and observability with Prometheus and Grafana",
+      description:
+        "This is a monitoring and observability project using Prometheus and Grafana to monitor a FastAPI application. It includes custom metrics, alerting rules, and dashboards to visualize application performance and health.",
+      url1: "https://prometheus.anthonysjhenry.com/targets",
+      url1Label: "Prometheus →",
+      url2: "https://grafana.anthonysjhenry.com",
+      url2Label: "Grafana →",
+      tags: [
+        "FastAPI",
+        "Python",
+        "PostgreSQL",
+        "Prometheus",
+        "Grafana",
+        "Docker",
+      ],
       status: "Live",
     },
   ];
@@ -48,20 +69,20 @@ const Projects = () => {
                 ))}
               </div>
               <a
-                href={project.rmqurl}
+                href={project.url1}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-auto text-sm text-blue-500 hover:underline"
               >
-                RabbitMQ →
+                {project.url1Label}{" "}
               </a>
               <a
-                href={project.miourl}
+                href={project.url2}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-auto text-sm text-blue-500 hover:underline"
               >
-                MinIO →
+                {project.url2Label}
               </a>
             </div>
           ))}
