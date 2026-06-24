@@ -2,21 +2,30 @@ const Projects = () => {
   const projects = [
     {
       title: "ETL Data Pipeline",
-      subtitle: "Data pipeline using RabbitMQ and MinIO",
+      subtitle: "Data pipeline using RabbitMQ, MinIO, and Clickhouse",
       description:
-        "This is a data pipeline using a React frontend, FastAPI backend, RabbitMQ, and a microservice that prepares Parquet files for MinIO to consume in preparation to be attached or sent to a data warehouse.",
+        "This is a data pipeline using a React frontend, FastAPI backend, RabbitMQ, a custom microservice that prepares Parquet files for MinIO to consume, and stored in Clickhouse.",
       url1: "https://rabbitmq.anthonysjhenry.com",
       url1Label: "RabbitMQ →",
       url2: "https://minio.anthonysjhenry.com",
       url2Label: "MinIO →",
-      tags: ["React", "TypeScript", "FastAPI", "Python", "RabbitMQ", "MinIO"],
+      tags: [
+        "React",
+        "TypeScript",
+        "FastAPI",
+        "Python",
+        "RabbitMQ",
+        "MinIO",
+        "Clickhouse",
+      ],
       status: "Live",
     },
     {
-      title: "Prometheus and Grafana Monitoring/Observability",
-      subtitle: "Monitoring and observability with Prometheus and Grafana",
+      title: "Monitoring and Observability using PLG Stack",
+      subtitle:
+        "Monitoring and observability with Prometheus, Loki, and Grafana",
       description:
-        "This is a monitoring and observability project using Prometheus and Grafana to monitor a FastAPI application. It includes custom metrics, alerting rules, and dashboards to visualize application performance and health.",
+        "This is a monitoring and observability project using Prometheus, Loki, and Grafana to monitor a FastAPI application. It includes custom metrics, alerting rules, and dashboards to visualize application performance and health.",
       url1: "https://prometheus.anthonysjhenry.com/targets",
       url1Label: "Prometheus →",
       url2: "https://grafana.anthonysjhenry.com",
@@ -26,6 +35,7 @@ const Projects = () => {
         "Python",
         "PostgreSQL",
         "Prometheus",
+        "Loki",
         "Grafana",
         "Docker",
       ],
