@@ -30,7 +30,7 @@ function Home() {
         <p className="text-lg text-center max-w-2xl">
           "I build scalable web applications and love solving complex problems
           with clean, efficient code. Passionate about Python, TypeScript,
-          React, and cloud architecture."
+          Golang, and cloud architecture."
         </p>
       </div>
       <div className="mt-12 px-4">

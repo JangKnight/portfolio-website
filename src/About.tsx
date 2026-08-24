@@ -14,17 +14,19 @@ const About = () => {
 
           <p className="text-lg mb-6">
             Currently, I specialize in building modern web applications using
-            React, TypeScript, Node.js, FastAPI (or Django Ninja) and cloud
-            platforms like AWS. I'm passionate about writing clean, maintainable
-            code and staying up-to-date with the latest technologies and best
-            practices.
+            Python (FastAPI, Django Ninja, or Flask) Golang(Gin),
+            TypeScript(Node.js, React), Docker/K8s, and cloud platforms like
+            AWS, Azure, GCP, Hetzner, and Digital Ocean. I'm passionate about
+            writing clean, maintainable code and staying up-to-date with the
+            latest technologies and best practices.
           </p>
 
           <p className="text-lg">
-            When I'm free, you'll find me working on personal or open source
-            projects, solving coding challenges, or exploring new frameworks and
-            tools. I believe in continuous learning and sharing knowledge with
-            the developer community.
+            When I'm free, you'll find me working on personal projects, solving
+            coding and capture the flag challenges, playing chess, practicing
+            calisthenics, or of course, learning new frameworks and tools. I
+            believe in continuous learning and sharing knowledge with the
+            developer community.
           </p>
         </div>
 
