@@ -9,7 +9,7 @@ const About = () => {
             I'm a full-stack developer with 4+ years of experience building web
             applications that users love. My journey in tech started with a
             curiosity about how things work, which led me to pursue Computer
-            Science and never look back.
+            Engineering and never look back.
           </p>
 
           <p className="text-lg mb-6">
