@@ -23,6 +23,12 @@ const events: TimelineEvent[] = [
     description:
       "I graduated in 2022 with my degree in Computer Engineering! I joined CodeMettle as a software engineer where we built custom NOC solutions for clients(mostly DoD). I mostly focused on building web applications with React, TypeScript, Golang, and Python. I got to learn about cloud architecture and DevOps practices. My latest project that involved building a real-time network monitoring dashboard using React and WebSockets.",
   },
+  {
+    year: "2026",
+    title: "Developing with and Auditing AI at Snorkel",
+    description:
+      "As we lean on AI to make development processes more efficient, we've found that AI prefers a very verbose and cognitive heavy wording. Reading commits and PRs is like reading a college essay whereas most devs want this information more concisely and without having to carry around an Oxford dictionary. My job here is 20% development and 80% qa. In a time where the road for a software engineer lacks clarity, I've found myself in a temp role providing it for AI.",
+  },
 ];
 
 const Exp = () => {
